@@ -1,17 +1,45 @@
-.MKL {
-    display: inline;
+// .project-page {
+//     overflow: scroll;
+// }
+
+.MKL, 
+.puppy-match,
+.THD {
+    display: flex;
     width: 600px;
 }
 
-.lunchbox {
+.lunchbox,
+.goldenRetriever,
+.THDLogo {
+    background-color: #fff;
     width: 200px;
     margin-left: 90px;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #ffd700;
+    border-radius: 5%;
 }
 
 a {
     text-decoration: none;
 }
 
-.MKL-title {
+.MKL-title, 
+.puppyMatch-title,
+.THD-title {
     font-size: x-large;
+    width: 250px;
+}
+
+.technologies {
+    margin-left: -40px;
+    font-size: large;
+    width: 100px;
+    color:#ffd700;
+
+}
+
+p {
+    margin-top: 20px;
 }
