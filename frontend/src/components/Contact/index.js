@@ -65,8 +65,8 @@ const Contact = () => {
                     </h1>
                     <p>
                         I am available for freelance projects and collaborative opportunities.<br/> 
-                        If you would like to work together, or simply talk tech, please do not <br/>
-                        hesitate to reach out using the form to the right!
+                        If you would like to work together, or simply talk tech, please reach <br/>
+                        out using the form to the right  ----->
                     </p>         
                 </div>
                 

@@ -4,8 +4,6 @@ import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import Sidebar from '../Sidebar';
 import Headshot from '../../assets/images/older_headshot.jpeg';
-import { FontAwesomeIcon  } from '@fortawesome/react-fontawesome';
-import { Title } from '@mui/icons-material';
 
 
 const About = () => {
@@ -46,7 +44,7 @@ const About = () => {
                 </h1>
                
                 <p className='thank-you'>Thank you for visiting!</p>
-                <p>I am a software developer with a keen interest in software that is appealing and beneficial 
+                <p>I am a software developer with a passion for creating applications that are visually appealing and beneficial 
                    to people of all ages and walks of life.
                 </p>
                 <p>Previously, I was a successful early childhood and family educator for over 15 years, working in both
@@ -60,15 +58,7 @@ const About = () => {
                    attractive, and engaging applications for everyone.  
                 </p>
                 <br/>
-                <text className='skills'>
-                    
-                </text>
-
-
-                
-                
-            </div>
-           
+            </div>  
         </div>
         <Loader type="pacman"/>
         </>

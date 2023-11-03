@@ -5,6 +5,7 @@ import Headshot from '../../assets/images/Headshot.jpg'
 import AnimatedLetters from '../AnimatedLetters';
 import Loader from 'react-loaders';
 import Sidebar from '../Sidebar';
+import Footer from '../Footer';
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
@@ -19,7 +20,7 @@ import {
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const letterArray = [' ', ' ', 'A', ' ', 'p', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o', ' ', '&', ' ', 'b', 'l', 'o', 'g', ' ', 'b', 'y', ' ', 'D', 'a', 'n', 'i', 'e', 'l', 'l', 'e', ' ', 'A', 'r', 'n', 'e', 't', 't']
+    const letterArray = [' ', ' ', 'A', ' ', 'p', 'o', 'r', 't', 'f', 'o', 'l', 'i', 'o', ' ', 'b', 'y', ' ', 'D', 'a', 'n', 'i', 'e', 'l', 'l', 'e', ' ', 'A', 'r', 'n', 'e', 't', 't']
 
 
     return (
@@ -35,7 +36,7 @@ const Home = () => {
                     <br />
                     <img className='logoTitle'  src={LogoTitle} alt='Logo' />
                     <h2>Full-Stack Software Development</h2> 
-                    <AnimatedLetters letterClass = {letterClass} strArray={letterArray} idx={1}/>
+                    <AnimatedLetters letterClass = {letterClass} strArray={letterArray} idx={9}/>
                 </h1>
                 <br />
                 <div className='socials-container'>
@@ -93,6 +94,7 @@ const Home = () => {
             </div>
         </div>
         <Loader type='pacman' />
+        {/* <Footer /> */}
         </>
     )
 }

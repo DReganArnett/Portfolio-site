@@ -41,3 +41,16 @@ textarea {
     animation: fadeOut 1s 1s;
     animation-fill-mode: forwards;
 }
+
+footer {
+    position: fixed;
+    color:#ffd700;
+    font-size: medium;
+    background-color: #022c43;
+    padding-bottom: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+ 
