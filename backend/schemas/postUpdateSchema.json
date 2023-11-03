@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "title": {
+        "type": "string",
+        "minLength": 1,
+        "maxLength": 50
+      },
+      "content": {
+        "type": "string"
+      },
+      "username": {
+        "type": "string"
+      }
+    },
+    "additionalProperties": false,
+    "required": []
+}
